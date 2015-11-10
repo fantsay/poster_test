@@ -1,0 +1,22 @@
+<div ng-controller="HomeController as ctrl">
+
+  <!-- Current App's Heading -->
+  <h4 class="well well-sm" id="app-heading">
+      Текущие обьявления
+  </h4>
+
+  <ul class="list-unstyled" id="items-list">
+      <li class="col-md-3" ng-repeat="product in ctrl.products">
+          <div class="row">
+              <div class="col-xs-4">
+                  <a href="javascript:void(0)">{{product.create_date}}</a>
+              </div>
+              <div class="product-description-holder col-xs-8">
+                  <h2><a href="javascript:void(0)">{{ product.header}}</a></h2>
+                  <p>{{ product.body}}</p>
+              </div>
+          </div>
+      </li>
+  </ul>
+
+</div>
