@@ -1,6 +1,5 @@
 package net.nixj.poster.repository;
 
-import javafx.geometry.Pos;
 import net.nixj.poster.entity.Poster;
 import net.nixj.poster.utils.HibernateUtils;
 
