@@ -6,10 +6,10 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <!-- Database connection settings -->
-            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/poster" />
-            <property name="javax.persistence.jdbc.user" value="postgres" />
-            <property name="javax.persistence.jdbc.password" value="post" />
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/poster" />
+            <property name="javax.persistence.jdbc.user" value="mysql" />
+            <property name="javax.persistence.jdbc.password" value="mysql" />
             <property name="javax.persistence.validation.group.pre-persist" value="javax.validation.groups.Default"/>
             <property name="javax.persistence.validation.group.pre-update" value="javax.validation.groups.Default"/>
             <property name="javax.persistence.validation.group.pre-remove" value="javax.validation.groups.Default"/>
@@ -17,7 +17,7 @@
 
 
             <!--Hibernate config-->
-            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQL94Dialect"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value = "update"/>
             <property name="hibernate.format_sql" value = "true"/>
             <property name="hibernate.show_sql" value = "true" />
