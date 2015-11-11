@@ -11,18 +11,8 @@ JDK8, Tomcat8, MySQl 5.*, Maven 3.0
 4. tar -xvf apache-tomcat-8.0.28.tar.gz
 5. удалить содержимое apache-tomcat-8.0.28/webapps 
 6. скачать исходники git clone https://github.com/fantsay/poster_test.git
-<!--7. Postgresql -->
-<!--   service potgresql start -->
-<!--   su -l root-->
-<!--   su - postgres-->
-<!--   psql-->
-<!--   # \password postgres-->
-<!--   ввести "poster"-->
-<!--   #CREATE DATABASE poster;-->
-<!--   #GRANT ALL privileges ON DATABASE poster TO postgres;-->
-<!--   \q-->
-<!--   Веернуться в свою учетную , exit exit .-->
-7. Установите и запустите mysql, создайте пользователя mysql пароль mysql ,базу poster
+
+7. Установите и запустите mysql, создайте пользователя mysql пароль mysql ,базу poster(UTF8)
 
 
 8. cd ~/poster/poster_test/
